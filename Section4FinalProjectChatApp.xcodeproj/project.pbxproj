@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		B1D6887C20E835B900894B6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D6887B20E835B900894B6C /* AppDelegate.swift */; };
-		B1D6887E20E835B900894B6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D6887D20E835B900894B6C /* ViewController.swift */; };
 		B1D6888120E835B900894B6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D6887F20E835B900894B6C /* Main.storyboard */; };
 		B1D6888320E835BB00894B6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D6888220E835BB00894B6C /* Assets.xcassets */; };
 		B1D6888620E835BB00894B6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D6888420E835BB00894B6C /* LaunchScreen.storyboard */; };
+		B1D6888E20E8364900894B6C /* ChooseLoginMethodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D6888D20E8364900894B6C /* ChooseLoginMethodVC.swift */; };
+		B1D6889020E8366F00894B6C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D6888F20E8366F00894B6C /* LoginVC.swift */; };
+		B1D6889220E8369D00894B6C /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D6889120E8369D00894B6C /* SignUpVC.swift */; };
+		B1D6889420E836F100894B6C /* YourExistingChatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D6889320E836F100894B6C /* YourExistingChatsVC.swift */; };
+		B1D6889620E8379A00894B6C /* AllChatUsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D6889520E8379A00894B6C /* AllChatUsersVC.swift */; };
+		B1D6889820E837CA00894B6C /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D6889720E837CA00894B6C /* ChatVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B1D6887820E835B900894B6C /* Section4FinalProjectChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Section4FinalProjectChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D6887B20E835B900894B6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B1D6887D20E835B900894B6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B1D6888020E835B900894B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1D6888220E835BB00894B6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1D6888520E835BB00894B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1D6888720E835BB00894B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D6888D20E8364900894B6C /* ChooseLoginMethodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseLoginMethodVC.swift; sourceTree = "<group>"; };
+		B1D6888F20E8366F00894B6C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		B1D6889120E8369D00894B6C /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		B1D6889320E836F100894B6C /* YourExistingChatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourExistingChatsVC.swift; sourceTree = "<group>"; };
+		B1D6889520E8379A00894B6C /* AllChatUsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllChatUsersVC.swift; sourceTree = "<group>"; };
+		B1D6889720E837CA00894B6C /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				B1D6887B20E835B900894B6C /* AppDelegate.swift */,
-				B1D6887D20E835B900894B6C /* ViewController.swift */,
 				B1D6887F20E835B900894B6C /* Main.storyboard */,
 				B1D6888220E835BB00894B6C /* Assets.xcassets */,
 				B1D6888420E835BB00894B6C /* LaunchScreen.storyboard */,
 				B1D6888720E835BB00894B6C /* Info.plist */,
+				B1D6888D20E8364900894B6C /* ChooseLoginMethodVC.swift */,
+				B1D6888F20E8366F00894B6C /* LoginVC.swift */,
+				B1D6889120E8369D00894B6C /* SignUpVC.swift */,
+				B1D6889320E836F100894B6C /* YourExistingChatsVC.swift */,
+				B1D6889520E8379A00894B6C /* AllChatUsersVC.swift */,
+				B1D6889720E837CA00894B6C /* ChatVC.swift */,
 			);
 			path = Section4FinalProjectChatApp;
 			sourceTree = "<group>";
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1D6887E20E835B900894B6C /* ViewController.swift in Sources */,
+				B1D6889020E8366F00894B6C /* LoginVC.swift in Sources */,
+				B1D6889820E837CA00894B6C /* ChatVC.swift in Sources */,
+				B1D6888E20E8364900894B6C /* ChooseLoginMethodVC.swift in Sources */,
+				B1D6889220E8369D00894B6C /* SignUpVC.swift in Sources */,
 				B1D6887C20E835B900894B6C /* AppDelegate.swift in Sources */,
+				B1D6889420E836F100894B6C /* YourExistingChatsVC.swift in Sources */,
+				B1D6889620E8379A00894B6C /* AllChatUsersVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
